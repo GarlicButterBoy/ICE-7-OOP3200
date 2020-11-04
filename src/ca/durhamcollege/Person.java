@@ -9,8 +9,10 @@ public class Person
     private String m_name;
     private int m_age;
 
-    //Default Constructor
 
+    /**
+     * This is the default constructor
+     */
     public Person()
     {
         m_name = "unknown";
@@ -19,6 +21,10 @@ public class Person
 
     //Constructor
 
+    /**
+     * Constructor for when a Name is given, but no Age
+     * @param name
+     */
     public Person(String name)
     {
         this.m_name = name;
@@ -26,6 +32,10 @@ public class Person
     }
     //Constructor
 
+    /**
+     * Constructor for when an Age is given, but no Name
+     * @param age
+     */
     public Person(int age)
     {
         this.m_age = age;
@@ -33,6 +43,11 @@ public class Person
     }
     //Constructor
 
+    /**
+     * Constructor for when an Age AND Name is given
+     * @param name
+     * @param age
+     */
     public Person(String name, int age)
     {
         this.m_name = name;

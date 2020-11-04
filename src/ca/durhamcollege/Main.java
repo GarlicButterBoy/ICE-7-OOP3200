@@ -1,3 +1,8 @@
+/*
+ * Nick Sturch-Flint 100303769
+ * November 4, 2020
+ */
+
 package ca.durhamcollege;
 
 import static java.lang.System.*;

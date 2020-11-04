@@ -80,7 +80,6 @@ public class Person
 
     /**
      * This method lets the Person say Hello to the Console
-     * @return {Void}
      */
     public void saysHello()
     {
